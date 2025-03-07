@@ -1,12 +1,12 @@
 @charset "utf-8";
 
 /* Layout */
-@import url('/common/css/default.css');
-@import url('/common/css/layout.css');
-@import url('/common/css/common_layout.css');
+@import url('/guri/common/css/default.css');
+@import url('/guri/common/css/layout.css');
+@import url('/guri/common/css/common_layout.css');
 @import url('common.css');
-@import url('/common/css/common_sub_layout.css');
+@import url('/guri/common/css/common_sub_layout.css');
 @import url('sub_layout.css');
-@import url('/common/css/template.css');
-@import url('/common/css/program.css');
+@import url('/guri/common/css/template.css');
+@import url('/guri/common/css/program.css');
 @import url('sub_content.css');
