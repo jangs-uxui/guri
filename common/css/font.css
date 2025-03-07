@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* 본고딕 */
+@font-face{
+    font-family: 'NotoKr';
+    font-weight: 200;
+    src: url("/guri/common/font/noto-sans-kr-v13-latin_korean-300.woff2") format('woff2'),
+    url("/guri/common/font/noto-sans-kr-v13-latin_korean-300.woff") format('woff');
+}
+@font-face{
+    font-family: 'NotoKr';
+    font-weight: 400;
+    src: url("/guri/common/font/noto-sans-kr-v13-latin_korean-regular.woff2") format('woff2'),
+    url("/guri/common/font/noto-sans-kr-v13-latin_korean-regular.woff") format('woff');
+}
+@font-face{
+    font-family: 'NotoKr';
+    font-weight: 500;
+    src: url("/guri/common/font/noto-sans-kr-v13-latin_korean-500.woff2") format('woff2'),
+    url("/guri/common/font/noto-sans-kr-v13-latin_korean-500.woff") format('woff');
+}
+@font-face{
+    font-family: 'NotoKr';
+    font-weight: 600;
+    src: url("/guri/common/font/noto-sans-kr-v13-latin_korean-700.woff2") format('woff2'),
+    url("/guri/common/font/noto-sans-kr-v13-latin_korean-700.woff") format('woff');
+}
+
+/* S-CoreDream */
+@font-face {
+    font-family: 'SCDream';
+    font-weight: 400;
+    src: url("/guri/common/font/SCDream4.woff2") format('woff2'),
+    url("/guri/common/font/SCDream4.woff") format('woff');
+}
+@font-face {
+    font-family: 'SCDream';
+    font-weight: 500;
+    src: url("/guri/common/font/SCDream5.woff2") format('woff2'),
+    url("/guri/common/font/SCDream5.woff") format('woff');
+}
+@font-face {
+    font-family: 'SCDream';
+    font-weight: 700;
+    src: url("/guri/common/font/SCDream7.woff2") format('woff2'),
+    url("/guri/common/font/SCDream7.woff") format('woff');
+}

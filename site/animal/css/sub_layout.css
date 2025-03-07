@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/* (주)한신정보기술 장희용 - 2024.04 */
+
+.sub_head .sub_title h2{font-family:'SCDream','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;}
+@media all and (min-width:1001px){
+    .sub_visual{background-image:url("../images/sub/sub_visual.jpg");}
+    .contain_top:after{display:none;}
+    .contain_top .wrap:before{display:block;position:absolute;bottom:69px;left:-12px;z-index:3;width:260px;height:186px;background:url("../images/sub/sub_deco1.png") left bottom / contain no-repeat; content:'';}
+    .contain_top .wrap:after{display:block;position:absolute;bottom:62px;left:402px;z-index:3;width:131px;height:153px;background:url("../images/sub/sub_deco2.png") right bottom / contain no-repeat; content:'';}
+    .contain_top .pathbox .path ul li.home a:before{background-image:url("../images/sub/sub_sprite.png");background-position:0 0;}
+    .contain_top .pathbox .path ul li.list button{color:#5a5958;}
+    .contain_top .pathbox .path ul li.list button:before{background-image:url("../images/sub/sub_sprite.png");background-position:0 -30px;}
+    .contain_top .pathbox .path ul li.list.active button:before{background-position:-30px -30px;}
+    .sharebox .share.active .share_btn{box-shadow:3px 4px 20px rgba(204,204,204,0.25);}
+    .sub_head .sharebox{width:auto;}
+    body.visualtype .sharebox .share .share_btn:before{background-image:url("../images/sub/sub_sprite.png");background-position:0 -60px;}
+    body.visualtype .sharebox .share.active .share_btn:before{background-position:0 -90px;}
+    body.visualtype .sharebox .printbox .print:before{background-image:url("../images/sub/sub_sprite.png");background-position:-30px -60px;}
+}
+@media all and (max-width:1400px) and (min-width:1001px){
+    .contain_top .wrap:before{width:180px;}
+    .contain_top .wrap:after{left:197px;width:92px;}
+}
